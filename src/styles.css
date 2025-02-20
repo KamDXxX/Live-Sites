@@ -1,0 +1,159 @@
+
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    color: #444444;
+    font-size: 1rem;
+   
+}
+a{
+    text-decoration: none;
+    color:#3bb2f6;
+}
+a:hover, a:focus{
+    color:darkblue;
+}
+#navbar{
+    padding:8px;
+    margin:0;
+}
+.display{
+    display:-webkit-flex;
+    display:flex;
+    max-width:800px;
+    margin:0 auto;
+}
+.div-1,.div-2{
+    padding:8px;
+    width:50% auto;
+    margin: 10px auto;
+    font-size: 1.25rem;
+}
+#logo{
+    height:30px;
+}
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+#banner {
+    object-fit: cover;
+    width: 100%;
+}
+#abt-jovia{
+    margin-bottom:5px;
+}
+#about{
+    margin-top:5px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom:30px;
+}
+#offer{
+    margin-top:0;
+}
+#team{
+    width:100%;
+}
+h2{
+    text-align:center;
+}
+#jobs{
+   max-width:800px;
+    margin:0 auto;
+    padding: 0 8px;
+}
+.job-role{
+    margin-bottom:0;
+    margin-top:0;
+}
+.apply{
+    float:right;
+}
+
+#footer{
+    background-color: ghostwhite;
+}
+#footer-links{
+    list-style-type: none;
+    padding:10px;
+    text-align:center;
+    background-color: #f8fafc;
+}
+#footer-links li{
+    display:inline;
+    margin:0 20px;
+    
+}
+.copyright{
+    text-align:center;
+    color:gray; 
+    font-size: 0.75em;
+}
+.detail{
+    text-align:center;
+    padding: 15px auto;
+}
+#jobs-table {
+    width: 100%;
+    border: 1px solid grey;
+    border-collapse:collapse;
+  }
+  
+  #jobs-table th {
+    border: 1px solid grey;
+    padding: 4px 8px;
+    text-align: center;
+    background-color: #bfdbfe;
+    color:#222222;
+  }
+  
+  #jobs-table td {
+    border: 1px solid grey;
+    padding: 4px 8px;
+  }
+  #jobs-table tr:nth-child(odd){
+    background-color: ghostwhite;
+
+  }
+  
+  h1, h2, h3, h4, h5, h6{
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+    color:#222222;
+    
+  }
+  h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+
+#application{
+    max-width: 800px;
+    padding: 0 8px;
+    margin: 0 auto;
+    
+}
+#application-form label{
+   font-weight:600;
+}
+.form-group{
+    margin:16px;
+}
+#application-form input, select,textarea{
+    padding:8px;
+    margin-top:4px;
+    font-size: 1.25rem;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+
+
+
+
+    
+
